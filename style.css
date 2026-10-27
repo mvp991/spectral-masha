@@ -1,0 +1,54 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { background: white; font-family: 'Spectral', Georgia, serif; }
+.site { width: 1440px; height: 6291px; position: relative; overflow: hidden; }
+.site section, .site header, .site footer { width: 1440px; position: absolute; left: 0; overflow: hidden; }
+.design { width: 1440px; display: block; height: 100%; }
+.header { top: 0; height: 858px; background: #fff; }
+.recipe { top: 858px; height: 1485px; background: #000; }
+.recipe .design { position: absolute; top: 0; left: 0; z-index: 0; }
+.paper { position: absolute; top: 76px; left: 312px; width: 810px; height: 806px; background: #fff; color: #000; padding: 32px 32px 0 32px; z-index: 2; }
+.paper h2 { text-align: center; font-size: 66px; line-height: .91; font-weight: 800; margin: 0; }
+.paper ol { font-size: 31px; line-height: 1.12; padding-left: 38px; margin: 48px 0 0; }
+.paper ol li { margin-bottom: 1px; }
+/* Рукописные графические элементы: два исходных PNG без повторной прорисовки */
+.recipe-circles {
+  position: absolute;
+  top: 198px;
+  left: 13px;
+  width: 77px;
+  height: auto;
+  z-index: 3;
+}
+.prescription-block {
+  position: relative;
+  width: 746px;
+  height: 105px;
+  margin-top: 56px;
+}
+.field-left {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.first-field { top: 4px; }
+.second-field { top: 55px; }
+.recipe-values {
+  position: absolute;
+  top: 0;
+  left: 210px;
+  width: 524px;
+  height: auto;
+}
+.credits {
+  font-size: 30px;
+  line-height: 1.18;
+  margin-top: 69px;
+}
+.history { top: 2343px; height: 853px; background: #000; }
+.about { top: 3196px; height: 1990px; background: #fff; overflow: hidden; z-index: 2; }
+.anatomy { top: 5186px; height: 1105px; background: #000; z-index: 3; }
+
