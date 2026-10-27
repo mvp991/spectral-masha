@@ -7,7 +7,7 @@
 https://mvp991.github.io/spectral-masha/
 
 ### Скриншот
-![Главная страница](images/ап 1 новое.png)
+![Главная страница](images/screenshot.png)
 
 
 ### Автор
